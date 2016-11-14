@@ -359,7 +359,7 @@ view model =
             height_size =
                 (toString (boardBounds.max_y * rect_size))
           in
-            svg [ viewBox ("0 0 " ++ width_size ++ " " ++ height_size), width "100px" ]
+            svg [ viewBox ("0 0 " ++ width_size ++ " " ++ height_size), width "1000px" ]
                 (List.append
                     [ rect
                         [ fill "#000000"
